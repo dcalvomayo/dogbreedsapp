@@ -5,7 +5,7 @@ from wrangling_scripts.CNN_functions import Resnet50_full_algorithm
 
 import os
 
-app.config["IMAGE_UPLOADS"] = "/home/dcalvomayo/Data/Capstone_dogs/app/dogbreedapp/images"
+app.config["IMAGE_UPLOADS"] = "dogbreedapp/images"
 
 @app.route('/')
 @app.route('/index')
